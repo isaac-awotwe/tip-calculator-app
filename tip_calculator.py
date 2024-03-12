@@ -7,7 +7,7 @@ print("Welcome to the Tip Calculator!")
 # Ask the user for the total bill amount
 bill = input("What was the total bill?\n$ ")
 # Ask the user for the tip percentage they like to give
-tip = int(input("How much tip would you like to give? (Enter a percentage amount without the '%' sign)\n"))
+tip = int(input("How much tip would you like to give? (Enter a percentage amount without the '%' sign. E.g. write 10 for 10%)\n"))
 # Ask the uder for the number of people to split the bill
 num_people = input("How many people to split the bill?\n")
 
