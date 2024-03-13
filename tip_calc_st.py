@@ -22,7 +22,7 @@ if st.session_state.stage >= 1:
 if st.session_state.stage >=2:
     st.write(f'Hello {name.capitalize()}!')
     bill = st.text_input(
-        "What is the total bill? (Enter amount in dollars but without the dollar sign)",
+        "What is the total bill? (Enter amount in dollars but without the follar sign. For example write 150.25 for $150.25)",
         on_change = set_state, args=[3]
         )
 
