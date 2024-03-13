@@ -30,9 +30,13 @@ if st.session_state.stage >=2:
         set_state(2)
 
 if st.session_state.stage >=3:
-    tip = st.text_input(
-        "How much tip would you like to give? (Enter a percentage amount without the '%' sign. E.g. write 10 for 10%)",
-        on_change = set_state, args = [4])
+    
+    tip = st.slider(
+        "Please use slider to select the percentage of tip you would like to give.",
+        on_change = set_state, args = [4]
+        )
+    
+    st.markdown(f"You have chosen to give a tip of {tip}%")
     
     if tip is None:
         set_state(3)
