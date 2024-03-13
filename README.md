@@ -4,3 +4,6 @@ The tip calculator app is a simple application that calculates the tip on your t
 The app asks the user questions about the total bill (before tip), the percentage of tip the user likes to give, and the number of people splitting the bill.
 
 Based on the answers, the app calculates the portion of bill (including tip) that each person pays.
+
+Use the link below to access the app:
+https://tip-calculator-app-t5xmohm7cvisyzdyi5uvrx.streamlit.app/
